@@ -50,3 +50,23 @@ Este proyecto fue desarrollado como parte de un sistema de ventas integral utili
    - `zxing-core.jar` (para lectura de códigos de barras)
 
 
+## Uso 🖥️
+- Inicie el proyecto desde `Main.java` la clase que contiene el método `main`.
+- Ingresa con las credenciales de ejemplo o crea un nuevo usuario.
+- Utilice el escáner de código de barras para ingresar productos rápidamente.
+- Genera informes desde los botones disponibles en la interfaz.
+- Verifique que la conexión con Heroku esté activada para operaciones remotas.
+- Uso local con XAMPP:
+    - `Activa Apache y MySQL desde el panel de XAMPP.`
+    - `Asegúrese de que la base de datos ventasesté creada.`
+    - `Usa rootsin contraseña o ajusta según tu configuración local.`
+
+## Despliegue en Heroku 🌐
+Solo aplica si decides subir la base de datos a Heroku:
+
+- Crea una cuenta en Heroku y añade el complemento ClearDB .
+- Copia la URL del ClearDB e intégrala en tu clase Conexion.java.
+- Asegúrese de que su IP no esté bloqueada si usa conexiones remotas.
+
+
+
