@@ -1,5 +1,5 @@
 # Sistema de Gestión de Ventas 
-Este proyecto fue desarrollado como parte de un sistema de ventas integral utilizando Java  en el IDE NetBeans. Está orientado a negocios que requieren manejar productos, clientes y generar reportes, con funcionalidades como escaneo por código de barras, generación de reportes con iReport y conexión a una base de datos MySQL alojada en Heroku.
+Este proyecto fue desarrollado como parte de un sistema de ventas integral utilizando Java NetBeans. Requieren manejar productos, clientes y generar reportes, con funcionalidades como escaneo por código de barras, generación de reportes con iReport y conexión a una base de datos MySQL alojada en Heroku.
 
 ---
 
@@ -75,13 +75,3 @@ Este proyecto fue desarrollado como parte de un sistema de ventas integral utili
 
 ---
 
-
-## Autores ✒️
-
-- **Angel Caiza** 
-  
----
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia MIT – consulta el archivo [LICENSE](LICENSE) para más detalles.
