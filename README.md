@@ -49,29 +49,4 @@ Este proyecto fue desarrollado como parte de un sistema de ventas integral utili
    - `ireport.jar` (si fue embebido)
    - `zxing-core.jar` (para lectura de códigos de barras)
 
----
-
-## Uso 🖥️
-
-- Inicia el proyecto desde `Main.java` o la clase que contenga el método `main`.
-- Ingresa con las credenciales de ejemplo o crea un nuevo usuario.
-- Usa el escáner de código de barras para ingresar productos rápidamente.
-- Genera reportes desde los botones disponibles en la interfaz.
-- Verifica que la conexión con Heroku esté activa para operaciones remotas.
-- **Uso local con XAMPP:**
-  - Activa Apache y MySQL desde el panel de XAMPP.
-  - Asegúrate de que la base de datos `ventas` esté creada.
-  - Usa `root` sin contraseña o ajusta según tu configuración local.
-
----
-
-## Despliegue en Heroku 🌐
-
-> Solo aplica si decides subir la base de datos a Heroku:
-
-- Crea una cuenta en Heroku y añade el complemento **ClearDB**.
-- Copia la URL del ClearDB e intégrala en tu clase `Conexion.java`.
-- Asegúrate que tu IP no esté bloqueada si usas conexiones remotas.
-
----
 
